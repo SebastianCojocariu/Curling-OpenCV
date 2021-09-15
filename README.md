@@ -24,10 +24,11 @@ Function of interest: task1(image_path, save_path=None, verbose=0)
 * --no_file: the number of file from path_dir where we want to apply our algorithm. It saves the output on save_dir (it must be specified). Default is None
 * --verbose: a flag to show different data along the running of the algorithm. Default is 0
 ```
-
+```bash
 * To run all the tests, just run: python3 task_1.py (This will get all the 25 images from ./dataset/Task1/and save the outputs on ./dataset/predictions/Task1/)
 * To run a specific image (specified by path), just run: python3 task_1.py --image_path <path_to_the_image> --verbose <0/1>
 * To run a specific image (specified by number from path_dir), just run: python3 task_1.py --no_file <the number of file> --verbose <0/1>
+```
 
 ## TASK2
 Python script: task_2.py
@@ -43,9 +44,11 @@ Function of interest: task2(video_path, save_path=None, verbose=0)
 * --verbose: a flag to show different data along the running of the algorithm. Default is 0
 ```
 
+```bash
 * To run all the tests, just run: python3 task_2.py (This will get all the 10 videos from ./dataset/Task2/ and save the outputs on ./dataset/predictions/Task2/)
 * To run a specific image (specified by path), just run: python3 task_2.py --video_path <path_to_the_video> --verbose <0/1>
 * To run a specific image (specified by number from path_dir), just run: python3 task_2.py --no_file <the number of file>  --verbose <0/1>
+```
 
 ## TASK3
 Python script: task_3.py
@@ -62,6 +65,8 @@ Function of interest: task3(video_path, initial_file_path, save_path=None, verbo
 * --verbose: a flag to show different data along the running of the algorithm. Default is 0
 ```
 
+```bash
 * To run all the tests, just run: python3 task_3.py (This will get all the 5 videos from ./dataset/Task3/ and save the outputs on ./dataset/predictions/Task3/)
 * To run a specific image (specified by path), just run: python3 task_3.py --video_path <path_to_the_image> --initial_file <path_to_initial_file> --verbose <0/1>
 * To run a specific image (specified by number from path_dir), just run: python3 task_3.py --no_file <the number of file> --verbose <0/1>
+```
